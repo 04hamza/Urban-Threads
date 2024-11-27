@@ -1,0 +1,30 @@
+.Categorynavbar{
+    display: flex;
+    height: 35px;
+    background-color:rgb(255, 255, 255);
+    border-bottom: 1px solid black;
+    justify-content: center;
+    padding: 5px 20px;
+    align-items: center;
+}
+.Categorynavbar ul{
+    display: flex;
+    list-style: none;
+    width: 50%;
+    justify-content: space-around;
+}
+.Categorynavbar ul .links{
+    font-size: 15px;
+    color: black;
+    font-family:monospace;
+    text-decoration: none;
+    transition: all 0.7s ;
+    text-transform: capitalize;
+    font-weight: bolder;
+    padding: 5px;
+    cursor: pointer;
+    border-bottom:solid 2px transparent ;
+}
+.Categorynavbar ul .links:hover{
+    border-bottom-color:black ;
+}

@@ -1,0 +1,73 @@
+.MyCard{
+    display: flex;
+    padding: 30px;
+}
+.MyCard .X{
+    padding: 10px;
+    flex: 1;
+}
+.MyCard .infoCard{
+    padding: 10px;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+.MyCard .infoCard .img{
+    width: 100px;
+    flex: 1;
+}
+.MyCard .infoCard .img img{
+     width: 80%;
+}
+.MyCard .infoCard .info{
+    flex: 1;
+}
+.MyCard .infoCard .amoutprice{
+    flex: 1;
+    padding: 15px;
+    display: flex;
+}
+.MyCard .infoCard .amoutprice .amout{
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+}
+.MyCard .infoCard .amoutprice .price{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 60px;
+}
+.MyCard .infoCard .amoutprice .delete{
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.Subtotal{
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+}
+.Estimated{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.Order_Summary button{
+    background-color: rgb(146, 132, 41);
+    border: none;
+    color: white;
+    width: 60%;
+    padding:10px 10px ;
+    font-size:25px ;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 20px;
+    font-family: "Arsenal SC", sans-serif;
+    transition: all .9s;
+}
+.Order_Summary button:hover{
+    background-color:rgb(175, 158, 49) ;
+}

@@ -1,0 +1,37 @@
+.Selection{
+    width: 100%;
+    padding: 10px 5px;
+    margin: 10px 0px;
+}
+.Selection h3{
+    padding: 2px;
+    font-family: "Arsenal SC", sans-serif;
+}
+.Selection .Selectiondiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Selection .Selectiondiv .Selectiondivs{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    cursor: pointer;
+}
+.Selection .Selectiondiv .Selectiondivs .divimg{
+    width: 130px;
+    height: 130px;
+}
+.Selection .Selectiondiv .Selectiondivs .divimg img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 2px;
+}
+.Selection .Selectiondiv .Selectiondivs span{
+    text-align: center;
+    font-size: 13px;
+}

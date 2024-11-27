@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+}
+.Card{
+    display: flex;
+    padding: 7px;
+    width: 100%;
+    justify-content: space-around;
+}
+.Card .image{
+    width: 40%;
+    display: block;
+    padding: 10px;
+}
+.Card .image .mainimage{
+     width: 100%;
+}
+.Card .image .mainimage img{
+    width: 100%;
+}
+.Card .image .images{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Card .image .images div{
+    width: 30%;
+    padding: 5px 3px;
+    height: 150px;
+    border: 1px solid rgb(164, 164, 164);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.Card .image .images div img{
+    width: 100%;  
+    object-fit: cover;
+    border-radius: 5px;
+}
+.Card .info{
+    width: 30%;
+    padding-left: 10px;
+}
+.Card .info h2{
+    font-size: 40px;
+}
+.Card .info .prix{
+    background-color: rgb(248, 232, 54);
+    font-size: 20px;
+    font-weight: bolder;
+    width: min-content;
+    padding: 5px 10px;
+}
+.Card .info .Color{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.Card .info .Color .colordiv{
+    width:60px;
+    margin-left: 5px;
+    height:60px;
+    display: inline-block;
+    transition: all .7s;
+    cursor: pointer;
+}
+.colordiv:hover{
+    transform: scale(1.2);
+}
+.colormain{
+    outline: 2px rgb(110, 98, 25) solid;
+}
+.Card .info .Size{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.Card .info .Size .sizediv{
+    width:60px;
+    margin:5px 5px;
+    height:60px;
+    border: 1px solid black;
+    line-height: 60px;
+    text-align: center;
+    display: inline-block;
+    transition: all .7s;
+    cursor: pointer;
+}
+.sizediv:hover{
+    transform: scale(1.2);
+}
+.sizemain{
+    outline: 2px rgb(110, 98, 25) solid;
+}
+.Card .info .Number{
+    font-size: 20px;
+    display: flex;
+    margin-top: 20px;
+}
+.Card .info .Number .add ,.Card .info .Number .delete{
+    width:70px;
+    height:60px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.Card .info .Number .number{
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    font-size: 30px;
+    text-align: center;
+    border-left: none;
+    border-right: none;
+    line-height: 60px;
+}
+.Card .info .amount{
+    font-size: 30px;
+}
+.Card .info button{
+       display: inline-block;
+       background-color:rgb(146, 132, 41) ;
+       padding: 10px 10px;
+       width: 60%;
+       margin-top: 20px;
+       font-weight: bold;
+       position: relative;
+       left: 50%;
+       transform: translateX(-50%);
+       font-size: 20px;
+       font-family: "Arsenal SC", sans-serif;
+       color: white;
+       transition: all .9s;
+       border: none;
+}
+.Card .info button:hover{
+    background-color:rgb(175, 158, 49) ;
+}
+.Card .info .disponible{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.ForProduct{
+    width: 60%;
+    left: 50%;
+    position: relative;
+    display: flex;
+    transform: translate(-50%);
+    justify-content: space-around;
+}
+.ForProduct div{
+    padding:20px 70px;
+    cursor: pointer;
+    font-size:20px ;
+    border-bottom: 2px solid rgb(99, 99, 99);
+    text-align: center;
+    font-weight: bolder;
+    transition: all .7s;
+}
+.ForProduct div:hover{
+  color: rgb(181, 163, 50);
+  border-bottom-color:rgb(181, 163, 50) ;
+}
+.BENEFITS h2{
+   text-align: center;
+}
+.BENEFITS h3{
+    text-align: center;
+}
+.BENEFITS p{
+    text-align: center;
+}
+.TECHNICAL {
+    text-align: center;
+}
+.Reviews{
+    display: flex;
+    margin-top: 20px;
+    padding: 20px;
+}
+.Reviews .note{
+    width: 30%;
+    padding-left: 40px;
+    font-size: 150px;
+}
+.Reviews .A{
+    border: 1px solid black;
+    padding: 10px 10px;
+}
+.Reviews .author,.Reviews .country,.Reviews .date{
+    display: inline-block;
+    padding: 10px;
+}
+.Reviews .A .review{
+    background-color: rgb(234, 234, 234);
+    padding: 10px 10px;
+}
+.choose{
+    color: rgb(181, 163, 50);
+    border-bottom-color:rgb(181, 163, 50) !important ;
+}

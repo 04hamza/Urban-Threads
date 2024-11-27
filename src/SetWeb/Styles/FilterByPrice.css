@@ -1,0 +1,28 @@
+.FilterByPrice{
+    width: 90%;
+    height: 220px;
+    font-family: "Arsenal SC", sans-serif;
+    margin-left: 5px;
+
+    padding: 5px;
+}
+.FilterByPrice h2{
+    font-size: 30px;
+}
+.FilterByPrice div{
+    width: 48%;
+    border: black solid 1px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    display: inline-block;
+    margin-left: 5px;
+    transition: all .8s;
+}
+.active{
+    background-color: rgb(196, 186, 119);
+}

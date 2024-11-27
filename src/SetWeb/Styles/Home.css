@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Yatra+One&display=swap');
+*{
+    font-family: "Arsenal SC", sans-serif;
+}
+
+
+.Home{
+    margin-top: 10px;
+    padding:0px 10px ;
+    display: flex;
+    align-self: center;
+ }
+ .Home .imageHome{
+     flex: 1;
+ }
+ .Home .divimgone, .divimgoneone{
+     width:300px;
+     height:356.25px;
+     display: inline-block;
+     overflow: hidden;
+     border-radius: 5px;
+     background-color: rgb(241, 241, 241);
+ }
+ .Home .divimgone:hover .button{
+     opacity: 1;
+     transform: translate(-50%, 90px);
+ }
+ .Home .divimgone .textlink,.divimgoneone .textlink{
+       text-decoration: none;
+       color: rgb(110, 98, 25);
+ }
+ .Home .divimgone .text,.divimgoneone .text{
+     font-size: 70px;
+     text-align: center;
+     position: relative;
+     left: 50%;
+     transform: translateX(-50%);
+ }
+ .Home .divimgone .button ,.divimgoneone .button{
+     font-size: 20px;
+     text-align: center;
+     padding: 2px 5px;
+     color: white;
+     position: relative;
+     left: 50%;
+     width: 150px;
+     background-color: black;
+     border-radius: 5px;
+     transform: translate(-50%,100px);
+     opacity: 0;
+     transition: all 1s ease-in-out;
+ }
+ .Home .imageHome .divimgtwo ,.divimgtwotwo{
+     width:250px;
+     height:250px;
+     overflow: hidden;
+     border-radius: 5px;
+     display: inline-block;
+     position: relative;
+     transform: translate(-30px,20px);
+ }
+ .Home .imgtwo{
+     width:250px;
+     height:250px;
+     transition: all 1s;
+ }
+ .Home .divimgtwo:hover .imgtwo{
+     height:260px;
+     width:260px;
+     position: fixed;
+     transform: rotate(2deg) scale(1.1);
+ }
+ 
+ .Home .info{
+     flex: 1;
+ }
+ .Home .info h2{
+     font-size: 35px;
+     color: rgb(110, 98, 25);
+ }
+ .Home .info p{
+     font-size: 20px;
+ }
+ .Home .info ul{
+     font-size: 17px;
+ }
+ .Home .divimgoneone{
+     transform: translateX(100%);
+ }
+ .Home .divimgtwotwo{
+     transform: translate(-240px,100px);
+ }
+ .Home .divimgtwotwo:hover .imgtwo{
+     height:260px;
+     width:260px;
+     transform:rotate(-2deg) scale(1.1);
+ }
+ .Home .divimgoneone:hover .button{
+     opacity: 1;
+     transform: translate(-50%, 50px);
+ }
+ @media (max-width: 1134px){
+     body{
+         background-color: chartreuse;
+     }
+     .divimgtwo{
+         width:200px;
+         height:200px;
+         transform: translate(-30px,20px);
+     }
+     .imgtwo{
+         width: 200px;
+         height: 200px;
+     }
+ }

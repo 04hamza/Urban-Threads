@@ -1,0 +1,26 @@
+.categories{
+    font-size: 25px;
+    width: 100%;
+    display: block;
+}
+.categories ul{
+    display: flex;
+    padding: 5px 100px;
+    justify-content: space-between;
+    list-style: none;
+}
+.categories ul li{
+    border-bottom: 2px solid transparent;
+    padding: 1px 5px;
+    transition: all .8s;
+}
+.categories ul li:hover{
+    border-bottom-color:rgb(175, 158, 49);
+}
+.categories .link{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-family: "Arsenal SC", sans-serif;
+}

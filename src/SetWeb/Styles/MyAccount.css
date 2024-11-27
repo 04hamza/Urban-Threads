@@ -1,0 +1,45 @@
+.MyAccount{
+    display: flex;
+    padding: 10px;
+}
+.MyAccount .S1{
+    padding: 10px;
+    width: 70%;
+}
+.MyAccount .S1 form{
+    display: flex;
+    flex-direction: column;
+}
+.MyAccount .S1 form select{
+    width: 70%;
+    padding: 10px;
+    font-size: 15px;
+    font-family: "Arsenal SC", sans-serif;
+}
+.MyAccount .S1 form label{
+    width: 70%;
+    padding: 10px;
+    font-size: 20px;
+}
+.MyAccount .S1 form input{
+    width: 70%;
+    padding: 10px;
+    font-size: 15px;
+}
+.MyAccount .S1 form button{
+    width: 70%;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: "Arsenal SC", sans-serif;
+    background-color: rgb(146, 132, 41);
+    border: none;
+    color: white;
+    transition: all .9s;
+}
+.MyAccount .S1 form button:hover{
+    background-color:rgb(175, 158, 49) ;
+}
+.left{
+    padding-left: 50px;
+}
